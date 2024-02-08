@@ -45,5 +45,5 @@ for item in data:
         content = file.read()
         file.seek(0, 0)
         file.write(f"# {name}_{current_time}\n")
-        file.write(f"![{name}_{current_time}](/dailyhitssvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](./dailyhitssvg/{name}_{current_time}.svg)\n")
         file.write(content)
