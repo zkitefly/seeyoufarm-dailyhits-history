@@ -1,0 +1,22 @@
+[
+    {
+        "name": "httpsdocs.hmcl.nethelp.html",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://docs.hmcl.net/help.html"
+    },
+    {
+        "name": "httpsgitee.comhuanghongxunHMCLissuesI8VVWQ",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://gitee.com/huanghongxun/HMCL/issues/I8VVWQ"
+    },
+    {
+        "name": "httpshmcl-snapshot-update.netlify.app",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://hmcl-snapshot-update.netlify.app"
+    },
+    {
+        "name": "httpshmcl-snapshot-update.netlify.appen",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://hmcl-snapshot-update.netlify.app/en"
+    },
+    {
+        "name": "httpshmcl-snapshot-update.netlify.appprs",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://hmcl-snapshot-update.netlify.app/prs"
+    }
+]
