@@ -18,5 +18,13 @@
     {
         "name": "httpshmcl-snapshot-update.netlify.appprs",
         "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://hmcl-snapshot-update.netlify.app/prs"
+    },
+    {
+        "name": "httpsdocs.hmcl.netchangelogdev.html",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://docs.hmcl.net/changelog/dev.html"
+    },
+    {
+        "name": "httpsdocs.hmcl.netchangelogstable.html",
+        "url": "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url=https://docs.hmcl.net/changelog/stable.html"
     }
 ]
