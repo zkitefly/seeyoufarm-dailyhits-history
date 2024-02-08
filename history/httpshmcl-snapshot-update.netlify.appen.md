@@ -1,5 +1,5 @@
 # httpshmcl-snapshot-update.netlify.appen_20240208222658
-![httpshmcl-snapshot-update.netlify.appen_20240208222658](./dailyhitssvg/httpshmcl-snapshot-update.netlify.appen_20240208222658.svg)
+![httpshmcl-snapshot-update.netlify.appen_20240208222658](/dailyhitssvg/httpshmcl-snapshot-update.netlify.appen_20240208222658.svg)
 # httpshmcl-snapshot-update.netlify.appen_20240208221325
 ![httpshmcl-snapshot-update.netlify.appen_20240208221325](/dailyhitssvg/httpshmcl-snapshot-update.netlify.appen_20240208221325.svg)
 # httpshmcl-snapshot-update.netlify.appen_20240208215617
