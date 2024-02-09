@@ -9,7 +9,7 @@ on:
       - 'main.py'
       - 'url.json'
   schedule:
-    - cron: '* */1 * * *'
+    - cron: '* */6 * * *'
 
 jobs:
   check-update:
