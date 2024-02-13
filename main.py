@@ -3,9 +3,17 @@ import requests
 import os
 from datetime import datetime
 
+badge = "https://hits.seeyoufarm.com/api/count/keep/badge.svg?url="
+
+dailyhits = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?count_bg=#0D1117&title_bg=#0D1117&icon=github.svg&icon_color=#FFFFFF&title=zkitefly/seeyoufarm-dailyhits-history&url="
+
 # 读取url.json文件
 with open('url.json', 'r') as file:
     data = json.load(file)
+
+# 确保badgesvg文件夹存在
+if not os.path.exists('badgesvg'):
+    os.makedirs('badgesvg')
 
 # 确保dailyhitssvg文件夹存在
 if not os.path.exists('dailyhitssvg'):
@@ -24,14 +32,18 @@ for item in data:
     current_time = datetime.now().strftime('%Y%m%d%H%M%S')
 
     # 创建文件名
-    filename = f'dailyhitssvg/{name}_{current_time}.svg'
+    badgefilename = f'badgesvg/{name}_{current_time}.svg'
+    dailyhitfilename = f'dailyhitssvg/{name}_{current_time}.svg'
 
     # 使用requests库下载.svg文件
-    response = requests.get(url)
+    badgesvg = requests.get(badge + url)
+    dailyhitssvg = requests.get(dailyhits + url)
 
     # 将下载的文件保存到指定的文件名
-    with open(filename, 'wb') as file:
-        file.write(response.content)
+    with open(badgefilename, 'wb') as file:
+        file.write(badgesvg.content)
+    with open(dailyhitfilename, 'wb') as file:
+        file.write(dailyhitssvg.content)
 
     # 检查是否存在名为"name.md"的文件，如果不存在，则创建该文件
     history_file = f'history/{name}.md'
@@ -39,11 +51,13 @@ for item in data:
         with open(history_file, 'w') as file:
             pass
 
-    # 在文件的顶部写入一行，内容为"# {图片名称，去掉.svg}"
-    # 在下一行写入"![图片名称](./dailyhitssvg/图片名称)"
+    # 在文件的顶部写入一行，内容为"# 名称_时间.svg}"
+    # 在下一行写入"![名称_时间](badgesvg/名称_时间)"
+    # 在下一行写入"![名称_时间](dailyhitssvg/名称_时间)"
     with open(history_file, 'r+') as file:
         content = file.read()
         file.seek(0, 0)
         file.write(f"# {name}_{current_time}\n")
-        file.write(f"![{name}_{current_time}](/dailyhitssvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](badgesvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](dailyhitssvg/{name}_{current_time}.svg)\n")
         file.write(content)
