@@ -13,3 +13,7 @@
 [https://docs.hmcl.net/changelog/dev.html](/history/httpsdocs.hmcl.netchangelogdev.html.md)
 
 [https://docs.hmcl.net/changelog/stable.html](/history/httpsdocs.hmcl.netchangelogstable.html.md)
+
+[httpsgithub.comzkitefly](/history/httpsgithub.comzkitefly.md)
+
+[httpshits.seeyoufarm.com](history/httpshits.seeyoufarm.com.md)
