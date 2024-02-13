@@ -3,9 +3,9 @@ import requests
 import os
 from datetime import datetime
 
-badge = "https://hits.seeyoufarm.com/api/count/keep/badge.svg?url="
+badge = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?count_bg=%230D1117&title_bg=%230D1117&icon=github.svg&icon_color=%23E7E7E7&title=zkitefly%2Fseeyoufarm-dailyhits-history&url="
 
-dailyhits = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?count_bg=#0D1117&title_bg=#0D1117&icon=github.svg&icon_color=#FFFFFF&title=zkitefly/seeyoufarm-dailyhits-history&url="
+dailyhits = "https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url="
 
 # 读取url.json文件
 with open('url.json', 'r') as file:
@@ -58,6 +58,6 @@ for item in data:
         content = file.read()
         file.seek(0, 0)
         file.write(f"# {name}_{current_time}\n")
-        file.write(f"![{name}_{current_time}](/badgesvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](/badgesvg/{name}_{current_time}.svg)\n\n")
         file.write(f"![{name}_{current_time}](/dailyhitssvg/{name}_{current_time}.svg)\n")
         file.write(content)
