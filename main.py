@@ -52,12 +52,12 @@ for item in data:
             pass
 
     # 在文件的顶部写入一行，内容为"# 名称_时间.svg}"
-    # 在下一行写入"![名称_时间](badgesvg/名称_时间)"
-    # 在下一行写入"![名称_时间](dailyhitssvg/名称_时间)"
+    # 在下一行写入"![名称_时间](/badgesvg/名称_时间)"
+    # 在下一行写入"![名称_时间](/dailyhitssvg/名称_时间)"
     with open(history_file, 'r+') as file:
         content = file.read()
         file.seek(0, 0)
         file.write(f"# {name}_{current_time}\n")
-        file.write(f"![{name}_{current_time}](badgesvg/{name}_{current_time}.svg)\n")
-        file.write(f"![{name}_{current_time}](dailyhitssvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](/badgesvg/{name}_{current_time}.svg)\n")
+        file.write(f"![{name}_{current_time}](/dailyhitssvg/{name}_{current_time}.svg)\n")
         file.write(content)
