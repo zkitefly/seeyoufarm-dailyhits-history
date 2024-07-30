@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650" height="300">\n<path  d="M 0 0
+L 650 0
+L 650 300
+L 0 300
+L 0 0" style="stroke-width:0;stroke:rgba(255,255,255,1.0);fill:rgba(255,255,255,1.0)"/><path  d="M 38 11
+L 587 11
+L 587 273
+L 38 273
+L 38 11" style="stroke-width:0;stroke:rgba(255,255,255,1.0);fill:rgba(255,255,255,1.0)"/><path  d="M 38 273
+L 587 273" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><path  d="M 38 273
+L 38 278" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="5" y="295" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">2024-06-30</text><path  d="M 176 273
+L 176 278" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="143" y="295" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">2024-07-07</text><path  d="M 313 273
+L 313 278" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="280" y="295" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">2024-07-15</text><path  d="M 450 273
+L 450 278" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="417" y="295" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">2024-07-22</text><path  d="M 587 273
+L 587 278" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="554" y="295" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">2024-07-30</text><path  d="M 588 273
+L 588 11" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><path  d="M 588 273
+L 593 273" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="279" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">420.00</text><path  d="M 588 229
+L 593 229" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="235" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">564.00</text><path  d="M 588 185
+L 593 185" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="191" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">707.00</text><path  d="M 588 142
+L 593 142" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="148" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">850.00</text><path  d="M 588 98
+L 593 98" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="104" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">994.00</text><path  d="M 588 54
+L 593 54" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="60" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">1137.00</text><path  d="M 588 11
+L 593 11" style="stroke-width:1;stroke:rgba(51,51,51,1.0);fill:none"/><text x="598" y="17" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">1280.00</text><path  d="M 38 88
+L 57 149
+L 75 110
+L 93 134
+L 112 145
+L 130 123
+L 148 121
+L 167 128
+L 185 122
+L 203 119
+L 221 125
+L 240 122
+L 258 100
+L 276 106
+L 295 78
+L 313 60
+L 331 80
+L 350 59
+L 368 78
+L 386 71
+L 404 49
+L 423 55
+L 441 58
+L 459 33
+L 478 28
+L 496 46
+L 514 39
+L 533 26
+L 551 26
+L 569 12
+L 587 270
+L 587 273
+L 38 273
+L 38 88" style="stroke-width:0;stroke:none;fill:rgba(0,116,217,0.3)"/><path  d="M 38 88
+L 57 149
+L 75 110
+L 93 134
+L 112 145
+L 130 123
+L 148 121
+L 167 128
+L 185 122
+L 203 119
+L 221 125
+L 240 122
+L 258 100
+L 276 106
+L 295 78
+L 313 60
+L 331 80
+L 350 59
+L 368 78
+L 386 71
+L 404 49
+L 423 55
+L 441 58
+L 459 33
+L 478 28
+L 496 46
+L 514 39
+L 533 26
+L 551 26
+L 569 12
+L 587 270" style="stroke-width:1;stroke:rgba(0,116,217,0.3);fill:none"/><text x="185" y="33" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:23.0px;font-family:'Roboto Medium',sans-serif">docs.hmcl.net/groups.html</text></svg>
