@@ -1,3 +1,7 @@
+# httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812144719
+![httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812144719](/badgesvg/httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812144719.svg)
+
+![httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812144719](/dailyhitssvg/httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812144719.svg)
 # httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812143824
 ![httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812143824](/badgesvg/httpsgitee.comhuanghongxunHMCLissuesI8VVWQ_20240812143824.svg)
 
